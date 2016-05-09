@@ -1,0 +1,108 @@
+body{
+	font-family: 'arial', sans-serif;
+	margin: 0;
+	padding-top: 60px;
+}
+.contenedor-general {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.contenedor-general .contenedor-izquierda {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 15px;
+}
+.contenedor-general .contenedor-izquierda img {
+
+}
+.contenedor-general .contenedor-derecha {
+	display: inline-block;
+	width: 650px;
+}
+.contenedor-general .contenedor-derecha section p.titulo-section {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 21px;
+	border-bottom: 1px solid #EFEFEF;
+	padding-bottom: 5px;
+}
+.contenedor-general .contenedor-derecha .presentacion {
+
+}
+.contenedor-general .contenedor-derecha .presentacion h1.nombre {
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 5px 0;
+	color: #333333;
+}
+.contenedor-general .contenedor-derecha .presentacion h2.profesion {
+	font-weight: 300;
+	margin: 5px 0;
+	color: #777777;
+}
+.contenedor-general .contenedor-derecha .presentacion p.descripcion {
+	font-size: 16px;
+	font-weight: 300;
+	color: #777777;
+	text-align: justify;
+}
+.contenedor-general .contenedor-derecha .datos-personales {
+
+}
+.contenedor-general .contenedor-derecha .datos-personales ul {
+	display: inline-block;
+	width: 280px;
+	vertical-align: top;
+}
+.contenedor-general .contenedor-derecha .datos-personales li span:first-child{
+	font-weight: 700;
+}
+.contenedor-general .contenedor-derecha .datos-personales li span:last-child {
+	font-weight: 300;
+}
+.contenedor-general .contenedor-derecha .formacion {
+    margin-top: 30px;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento {
+	margin-bottom: 20px;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .izquierda {
+	display: inline-block;
+	vertical-align: top;
+	width: 180px;
+	border-right: 1px solid #EFEFEF; 
+	padding-right: 25px; 
+	height: 85px;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .izquierda p {
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .derecha {
+	display: inline-block;
+	width: 350px;
+	margin-left: 25px; 
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .derecha p.titulo {
+	font-weight: 700;
+	margin: 0;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .derecha p.descripion {
+	font-weight: 300;
+	margin: 0;
+}
+.contenedor-general .contenedor-derecha .formacion .elemento .derecha hr {
+	
+}
+
+
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
